@@ -46,9 +46,9 @@ level_job = [
         html.H5(data['experience_level'].nunique())
     ])]
 remote = [
-    dbc.CardHeader('Total Company Location'),
+    dbc.CardHeader('Total Remote Job Type'),
     dbc.CardBody([
-        html.H5(data['company_location'].nunique())
+        html.H5(data['remote_ratio'].nunique())
     ])]
 
 ## ---PIE CHART---
