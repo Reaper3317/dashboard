@@ -192,7 +192,7 @@ app.layout = html.Div([
                 html.Br(), 
                 html.Br(),
                 dbc.Row([
-                    html.P(['Copyright 2022'], style={'textAlign':'center', 'color':'#222A2A'})
+                    html.P(['By: Gilbert G P Tampubolon'], style={'textAlign':'center', 'color':'#222A2A'})
                     ]),
             ],
             style={
